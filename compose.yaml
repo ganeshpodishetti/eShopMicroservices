@@ -1,0 +1,41 @@
+﻿services:
+  order.api:
+    image: order.api
+    build:
+      context: .
+      dockerfile: Order/Order.Api/Dockerfile
+    ports:
+      - "51234:8080"
+
+  product.api:
+    image: product.api
+    build:
+      context: .
+      dockerfile: Product/Product.Api/Dockerfile
+    ports:
+      - "51235:8080"
+
+  promotion.api:
+    image: promotion.api
+    build:
+      context: .
+      dockerfile: Promotion/Promotion.Api/Dockerfile
+    ports:
+      - "51236:8080"
+
+  review.api:
+    image: review.api
+    build:
+      context: .
+      dockerfile: Review/Review.Api/Dockerfile
+    ports:
+      - "51237:8080"
+
+  shipping.api:
+    image: shipping.api
+    build:
+      context: .
+      dockerfile: Shipping/Shipping.Api/Dockerfile
+    ports:
+      - "51238:8080"
+

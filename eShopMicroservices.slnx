@@ -1,0 +1,30 @@
+﻿<Solution>
+  <Folder Name="/Order/">
+    <Project Path="Order\Order.Api\Order.Api.csproj" Type="Classic C#" />
+    <Project Path="Order\Order.Domain\Order.Domain.csproj" Type="Classic C#" />
+    <Project Path="Order\Order.Infrastructure\Order.Infrastructure.csproj" Type="Classic C#" />
+  </Folder>
+  <Folder Name="/Product/">
+    <Project Path="Product\Product.Api\Product.Api.csproj" Type="Classic C#" />
+    <Project Path="Product\Product.Domain\Product.Domain.csproj" Type="Classic C#" />
+    <Project Path="Product\Product.Infrastructure\Product.Infrastructure.csproj" Type="Classic C#" />
+  </Folder>
+  <Folder Name="/Promotion/">
+    <Project Path="Promotion\Promotion.Api\Promotion.Api.csproj" Type="Classic C#" />
+    <Project Path="Promotion\Promotion.Domain\Promotion.Domain.csproj" Type="Classic C#" />
+    <Project Path="Promotion\Promotion.Infrastructure\Promotion.Infrastructure.csproj" Type="Classic C#" />
+  </Folder>
+  <Folder Name="/Review/">
+    <Project Path="Review\Review.Api\Review.Api.csproj" Type="Classic C#" />
+    <Project Path="Review\Review.Domian\Review.Domian.csproj" Type="Classic C#" />
+    <Project Path="Review\Review.Infrastructure\Review.Infrastructure.csproj" Type="Classic C#" />
+  </Folder>
+  <Folder Name="/Shipping/">
+    <Project Path="Shipping\Shipping.Api\Shipping.Api.csproj" Type="Classic C#" />
+    <Project Path="Shipping\Shipping.Domain\Shipping.Domain.csproj" Type="Classic C#" />
+    <Project Path="Shipping\Shipping.Infrastructure\Shipping.Infrastructure.csproj" Type="Classic C#" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="compose.yaml" />
+  </Folder>
+</Solution>
