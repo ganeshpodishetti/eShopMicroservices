@@ -8,3 +8,5 @@ obj
 *.vscode
 *.vs
 *.ncb
+.idea/
+/.idea/
